@@ -1,11 +1,11 @@
 ---
 name: worldcup-predictor
-description: Use when an agent must audit structured World Cup prediction inputs, calculate 90-minute match probabilities, continue a 2026 tournament simulation from completed results, explain champion or qualification probabilities, or generate cautious China football lottery 3/1/0 reference lists.
+description: Use when an agent must act as 世界杯预测机 for World Cup prediction, 2026 世界杯模拟, 世界杯胜平负概率, 90-minute match probabilities, champion or qualification probability explanation, audited offline input checks, completed-result tournament continuation, or cautious China football lottery 3/1/0 reference lists.
 ---
 
-# World Cup Predictor
+# 世界杯预测机 / World Cup Predictor
 
-Use this skill to run deterministic World Cup predictions from an offline audited snapshot. The bundled `core/` is a portable snapshot of `prediction-core v0.2.0`; do not recreate probability formulas in prose or with an LLM.
+Use this skill to run deterministic World Cup predictions from an offline audited snapshot. Users may call it 世界杯预测机 in Chinese prompts; the internal skill name remains `worldcup-predictor`. The bundled `core/` is a portable snapshot of `prediction-core v0.2.0`; do not recreate probability formulas in prose or with an LLM.
 
 ## Workflow
 

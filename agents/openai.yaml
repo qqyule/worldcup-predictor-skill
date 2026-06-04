@@ -1,4 +1,4 @@
 interface:
-  display_name: "World Cup Predictor"
-  short_description: "Run audited World Cup predictions"
-  default_prompt: "Use $worldcup-predictor to audit an offline snapshot, run deterministic World Cup predictions or completed-result continuation, and explain uncertainty without inventing probabilities."
+  display_name: "世界杯预测机"
+  short_description: "预测世界杯胜平负与冠军概率"
+  default_prompt: "使用 $worldcup-predictor 帮我分析一场世界杯比赛的 90 分钟胜平负，并说明模型依据和不确定性。"

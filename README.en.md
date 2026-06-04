@@ -1,10 +1,15 @@
-# World Cup Predictor Skill
+# World Cup Predictor Skill: 2026 World Cup Predictions And Simulation
 
 [中文说明](README.md)
 
-An Agent Skill for Codex, Claude Code, and compatible environments. It uses audited offline snapshots and a bundled deterministic core to calculate 90-minute match probabilities, continue 2026 World Cup simulations, and organize cautious China football lottery 3/1/0 reference lists.
+World Cup Predictor is an Agent Skill for Codex, Claude Code, and compatible environments. It uses audited offline snapshots and a bundled deterministic core to calculate 2026 World Cup predictions, 90-minute win/draw/loss probabilities, tournament simulations, champion probabilities, and cautious China football lottery 3/1/0 reference lists.
 
-The repository does not depend on Next.js, databases, live scraping, or LLM-generated probabilities. LLMs may explain outputs, but they must not replace deterministic rules or calculations.
+**In one sentence**: give an agent audited match data, and it can explain which side is more likely to win, draw, or lose in 90 minutes, then simulate who has the best path to the title.
+**Best for**: checking a World Cup match before kickoff, building a 2026 World Cup simulator, explaining champion probabilities, or adding win/draw/loss analysis to Codex / Claude Code.
+**Not for**: live scores, news, odds, official-data scraping, betting advice, return promises, or official endorsement.
+**Chinese display name**: 世界杯预测机. The internal skill name remains `worldcup-predictor`.
+
+The 2026 World Cup uses the expanded 48-team, 12-group, 104-match format. This repository only works with audited offline data and does not depend on Next.js, databases, live scraping, or LLM-generated probabilities. LLMs may explain outputs, but they must not replace deterministic rules or calculations.
 
 ## Start In 30 Seconds
 
@@ -22,12 +27,21 @@ git clone https://github.com/qqyule/worldcup-predictor-skill.git ~/.codex/skills
 
 Claude Code users can clone the repository into `~/.claude/skills/worldcup-predictor`.
 
-Example requests after installation:
+Natural example requests after installation:
 
 ```text
-Use worldcup-predictor to calculate the audited 90-minute probabilities for France vs Brazil.
-Use worldcup-predictor to simulate the 2026 World Cup 10,000 times with a fixed seed and explain the champion probabilities.
-Use worldcup-predictor to organize a balanced 3/1/0 reference list from a 14-match issue JSON file.
+Use worldcup-predictor: who is more likely to win, France or Brazil?
+Use worldcup-predictor to analyze this match's 90-minute win/draw/loss chances.
+Use worldcup-predictor: is there an upset risk in this match?
+Use worldcup-predictor to show the most likely scorelines.
+Use worldcup-predictor to simulate 2026 World Cup champion probabilities.
+Use worldcup-predictor: which teams are most likely to reach the quarter-finals?
+Use worldcup-predictor: who is more likely to qualify from this group?
+Use worldcup-predictor to continue the knockout bracket from current results.
+Use worldcup-predictor to explain why the model favors this team.
+Use worldcup-predictor with my 14-match JSON and organize a 3/1/0 entertainment reference list.
+Use worldcup-predictor to make a conservative win/draw/loss list, not betting advice.
+Use worldcup-predictor to rank these matches by risk level.
 ```
 
 ## Capabilities
@@ -35,7 +49,7 @@ Use worldcup-predictor to organize a balanced 3/1/0 reference list from a 14-mat
 - Audit structured offline inputs and reject incomplete or mixed-version data.
 - Calculate 90-minute win, draw, and loss probabilities, expected goals, and likely scorelines.
 - Continue a 2026 World Cup simulation from completed results without overwriting them.
-- Report qualification, knockout-path, and champion probabilities.
+- Report qualification, knockout-path, and World Cup champion probabilities.
 - Generate China football lottery 3/1/0 entertainment reference lists from `90minResult`.
 - Keep `90minResult` and `advanceResult` strictly separate.
 - Ignore unreviewed LLM-extracted context adjustments.
