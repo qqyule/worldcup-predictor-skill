@@ -1,0 +1,4 @@
+interface:
+  display_name: "World Cup Predictor"
+  short_description: "Run audited World Cup predictions"
+  default_prompt: "Use $worldcup-predictor to audit an offline snapshot, run deterministic World Cup predictions or completed-result continuation, and explain uncertainty without inventing probabilities."

@@ -1,0 +1,1772 @@
+{
+  "metadata": {
+    "name": "World Cup Predictor synthetic 48-team audited sample",
+    "modelVersion": "model-v0.2-elo-dc",
+    "dataVersion": "official-8ded82ac0dd77550",
+    "sourceVersions": {
+      "sample-calendar": "synthetic-48-calendar-v0.2"
+    },
+    "strengthSnapshotVersion": "synthetic-48-strength-v0.2",
+    "expectedTeamCount": 48,
+    "generatedAt": "2026-06-04T00:00:00.000Z",
+    "sampleScope": "Synthetic 48-team data for official-format and completed-result continuation tests. Not an official data feed."
+  },
+  "format": {
+    "groupCount": 12,
+    "teamsPerGroup": 4,
+    "qualificationRule": "top_two_plus_best_eight_thirds",
+    "matchCount": 104
+  },
+  "teams": [
+    {
+      "id": "T01",
+      "code": "T01",
+      "name": "Synthetic Team 1",
+      "countryCode": "T01",
+      "groupCode": "A",
+      "fifaRank": 1,
+      "ratingValue": 2038,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T02",
+      "code": "T02",
+      "name": "Synthetic Team 2",
+      "countryCode": "T02",
+      "groupCode": "A",
+      "fifaRank": 2,
+      "ratingValue": 2026,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T03",
+      "code": "T03",
+      "name": "Synthetic Team 3",
+      "countryCode": "T03",
+      "groupCode": "A",
+      "fifaRank": 3,
+      "ratingValue": 2014,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T04",
+      "code": "T04",
+      "name": "Synthetic Team 4",
+      "countryCode": "T04",
+      "groupCode": "A",
+      "fifaRank": 4,
+      "ratingValue": 2002,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T05",
+      "code": "T05",
+      "name": "Synthetic Team 5",
+      "countryCode": "T05",
+      "groupCode": "B",
+      "fifaRank": 5,
+      "ratingValue": 1990,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T06",
+      "code": "T06",
+      "name": "Synthetic Team 6",
+      "countryCode": "T06",
+      "groupCode": "B",
+      "fifaRank": 6,
+      "ratingValue": 1978,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T07",
+      "code": "T07",
+      "name": "Synthetic Team 7",
+      "countryCode": "T07",
+      "groupCode": "B",
+      "fifaRank": 7,
+      "ratingValue": 1966,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T08",
+      "code": "T08",
+      "name": "Synthetic Team 8",
+      "countryCode": "T08",
+      "groupCode": "B",
+      "fifaRank": 8,
+      "ratingValue": 1954,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T09",
+      "code": "T09",
+      "name": "Synthetic Team 9",
+      "countryCode": "T09",
+      "groupCode": "C",
+      "fifaRank": 9,
+      "ratingValue": 1942,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T10",
+      "code": "T10",
+      "name": "Synthetic Team 10",
+      "countryCode": "T10",
+      "groupCode": "C",
+      "fifaRank": 10,
+      "ratingValue": 1930,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T11",
+      "code": "T11",
+      "name": "Synthetic Team 11",
+      "countryCode": "T11",
+      "groupCode": "C",
+      "fifaRank": 11,
+      "ratingValue": 1918,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T12",
+      "code": "T12",
+      "name": "Synthetic Team 12",
+      "countryCode": "T12",
+      "groupCode": "C",
+      "fifaRank": 12,
+      "ratingValue": 1906,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T13",
+      "code": "T13",
+      "name": "Synthetic Team 13",
+      "countryCode": "T13",
+      "groupCode": "D",
+      "fifaRank": 13,
+      "ratingValue": 1894,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T14",
+      "code": "T14",
+      "name": "Synthetic Team 14",
+      "countryCode": "T14",
+      "groupCode": "D",
+      "fifaRank": 14,
+      "ratingValue": 1882,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T15",
+      "code": "T15",
+      "name": "Synthetic Team 15",
+      "countryCode": "T15",
+      "groupCode": "D",
+      "fifaRank": 15,
+      "ratingValue": 1870,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T16",
+      "code": "T16",
+      "name": "Synthetic Team 16",
+      "countryCode": "T16",
+      "groupCode": "D",
+      "fifaRank": 16,
+      "ratingValue": 1858,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T17",
+      "code": "T17",
+      "name": "Synthetic Team 17",
+      "countryCode": "T17",
+      "groupCode": "E",
+      "fifaRank": 17,
+      "ratingValue": 1846,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T18",
+      "code": "T18",
+      "name": "Synthetic Team 18",
+      "countryCode": "T18",
+      "groupCode": "E",
+      "fifaRank": 18,
+      "ratingValue": 1834,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T19",
+      "code": "T19",
+      "name": "Synthetic Team 19",
+      "countryCode": "T19",
+      "groupCode": "E",
+      "fifaRank": 19,
+      "ratingValue": 1822,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T20",
+      "code": "T20",
+      "name": "Synthetic Team 20",
+      "countryCode": "T20",
+      "groupCode": "E",
+      "fifaRank": 20,
+      "ratingValue": 1810,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T21",
+      "code": "T21",
+      "name": "Synthetic Team 21",
+      "countryCode": "T21",
+      "groupCode": "F",
+      "fifaRank": 21,
+      "ratingValue": 1798,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T22",
+      "code": "T22",
+      "name": "Synthetic Team 22",
+      "countryCode": "T22",
+      "groupCode": "F",
+      "fifaRank": 22,
+      "ratingValue": 1786,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T23",
+      "code": "T23",
+      "name": "Synthetic Team 23",
+      "countryCode": "T23",
+      "groupCode": "F",
+      "fifaRank": 23,
+      "ratingValue": 1774,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T24",
+      "code": "T24",
+      "name": "Synthetic Team 24",
+      "countryCode": "T24",
+      "groupCode": "F",
+      "fifaRank": 24,
+      "ratingValue": 1762,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T25",
+      "code": "T25",
+      "name": "Synthetic Team 25",
+      "countryCode": "T25",
+      "groupCode": "G",
+      "fifaRank": 25,
+      "ratingValue": 1750,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T26",
+      "code": "T26",
+      "name": "Synthetic Team 26",
+      "countryCode": "T26",
+      "groupCode": "G",
+      "fifaRank": 26,
+      "ratingValue": 1738,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T27",
+      "code": "T27",
+      "name": "Synthetic Team 27",
+      "countryCode": "T27",
+      "groupCode": "G",
+      "fifaRank": 27,
+      "ratingValue": 1726,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T28",
+      "code": "T28",
+      "name": "Synthetic Team 28",
+      "countryCode": "T28",
+      "groupCode": "G",
+      "fifaRank": 28,
+      "ratingValue": 1714,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T29",
+      "code": "T29",
+      "name": "Synthetic Team 29",
+      "countryCode": "T29",
+      "groupCode": "H",
+      "fifaRank": 29,
+      "ratingValue": 1702,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T30",
+      "code": "T30",
+      "name": "Synthetic Team 30",
+      "countryCode": "T30",
+      "groupCode": "H",
+      "fifaRank": 30,
+      "ratingValue": 1690,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T31",
+      "code": "T31",
+      "name": "Synthetic Team 31",
+      "countryCode": "T31",
+      "groupCode": "H",
+      "fifaRank": 31,
+      "ratingValue": 1678,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T32",
+      "code": "T32",
+      "name": "Synthetic Team 32",
+      "countryCode": "T32",
+      "groupCode": "H",
+      "fifaRank": 32,
+      "ratingValue": 1666,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T33",
+      "code": "T33",
+      "name": "Synthetic Team 33",
+      "countryCode": "T33",
+      "groupCode": "I",
+      "fifaRank": 33,
+      "ratingValue": 1654,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T34",
+      "code": "T34",
+      "name": "Synthetic Team 34",
+      "countryCode": "T34",
+      "groupCode": "I",
+      "fifaRank": 34,
+      "ratingValue": 1642,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T35",
+      "code": "T35",
+      "name": "Synthetic Team 35",
+      "countryCode": "T35",
+      "groupCode": "I",
+      "fifaRank": 35,
+      "ratingValue": 1630,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T36",
+      "code": "T36",
+      "name": "Synthetic Team 36",
+      "countryCode": "T36",
+      "groupCode": "I",
+      "fifaRank": 36,
+      "ratingValue": 1618,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T37",
+      "code": "T37",
+      "name": "Synthetic Team 37",
+      "countryCode": "T37",
+      "groupCode": "J",
+      "fifaRank": 37,
+      "ratingValue": 1606,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T38",
+      "code": "T38",
+      "name": "Synthetic Team 38",
+      "countryCode": "T38",
+      "groupCode": "J",
+      "fifaRank": 38,
+      "ratingValue": 1594,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T39",
+      "code": "T39",
+      "name": "Synthetic Team 39",
+      "countryCode": "T39",
+      "groupCode": "J",
+      "fifaRank": 39,
+      "ratingValue": 1582,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T40",
+      "code": "T40",
+      "name": "Synthetic Team 40",
+      "countryCode": "T40",
+      "groupCode": "J",
+      "fifaRank": 40,
+      "ratingValue": 1570,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T41",
+      "code": "T41",
+      "name": "Synthetic Team 41",
+      "countryCode": "T41",
+      "groupCode": "K",
+      "fifaRank": 41,
+      "ratingValue": 1558,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T42",
+      "code": "T42",
+      "name": "Synthetic Team 42",
+      "countryCode": "T42",
+      "groupCode": "K",
+      "fifaRank": 42,
+      "ratingValue": 1546,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T43",
+      "code": "T43",
+      "name": "Synthetic Team 43",
+      "countryCode": "T43",
+      "groupCode": "K",
+      "fifaRank": 43,
+      "ratingValue": 1534,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T44",
+      "code": "T44",
+      "name": "Synthetic Team 44",
+      "countryCode": "T44",
+      "groupCode": "K",
+      "fifaRank": 44,
+      "ratingValue": 1522,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    },
+    {
+      "id": "T45",
+      "code": "T45",
+      "name": "Synthetic Team 45",
+      "countryCode": "T45",
+      "groupCode": "L",
+      "fifaRank": 45,
+      "ratingValue": 1510,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 70,
+      "goalsPerMatch": 1.5,
+      "goalsAgainstPerMatch": 0.85
+    },
+    {
+      "id": "T46",
+      "code": "T46",
+      "name": "Synthetic Team 46",
+      "countryCode": "T46",
+      "groupCode": "L",
+      "fifaRank": 46,
+      "ratingValue": 1498,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 66,
+      "goalsPerMatch": 1.4,
+      "goalsAgainstPerMatch": 0.95
+    },
+    {
+      "id": "T47",
+      "code": "T47",
+      "name": "Synthetic Team 47",
+      "countryCode": "T47",
+      "groupCode": "L",
+      "fifaRank": 47,
+      "ratingValue": 1486,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 62,
+      "goalsPerMatch": 1.3,
+      "goalsAgainstPerMatch": 1.05
+    },
+    {
+      "id": "T48",
+      "code": "T48",
+      "name": "Synthetic Team 48",
+      "countryCode": "T48",
+      "groupCode": "L",
+      "fifaRank": 48,
+      "ratingValue": 1474,
+      "ratingSource": "fifa_rank_fallback",
+      "strengthVersion": "synthetic-48-strength-v0.2",
+      "isHost": false,
+      "formScore": 58,
+      "goalsPerMatch": 1.2,
+      "goalsAgainstPerMatch": 1.15
+    }
+  ],
+  "matchStates": [
+    {
+      "matchId": "synthetic-group-1",
+      "matchNumber": 1,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T01",
+      "awayTeamId": "T02",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-2",
+      "matchNumber": 2,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T01",
+      "awayTeamId": "T03",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-3",
+      "matchNumber": 3,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T01",
+      "awayTeamId": "T04",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-4",
+      "matchNumber": 4,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T02",
+      "awayTeamId": "T03",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-5",
+      "matchNumber": 5,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T02",
+      "awayTeamId": "T04",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-6",
+      "matchNumber": 6,
+      "stage": "group",
+      "groupCode": "A",
+      "homeTeamId": "T03",
+      "awayTeamId": "T04",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-7",
+      "matchNumber": 7,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T05",
+      "awayTeamId": "T06",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-8",
+      "matchNumber": 8,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T05",
+      "awayTeamId": "T07",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-9",
+      "matchNumber": 9,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T05",
+      "awayTeamId": "T08",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-10",
+      "matchNumber": 10,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T06",
+      "awayTeamId": "T07",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-11",
+      "matchNumber": 11,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T06",
+      "awayTeamId": "T08",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-12",
+      "matchNumber": 12,
+      "stage": "group",
+      "groupCode": "B",
+      "homeTeamId": "T07",
+      "awayTeamId": "T08",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-13",
+      "matchNumber": 13,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T09",
+      "awayTeamId": "T10",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-14",
+      "matchNumber": 14,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T09",
+      "awayTeamId": "T11",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-15",
+      "matchNumber": 15,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T09",
+      "awayTeamId": "T12",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-16",
+      "matchNumber": 16,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T10",
+      "awayTeamId": "T11",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-17",
+      "matchNumber": 17,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T10",
+      "awayTeamId": "T12",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-18",
+      "matchNumber": 18,
+      "stage": "group",
+      "groupCode": "C",
+      "homeTeamId": "T11",
+      "awayTeamId": "T12",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-19",
+      "matchNumber": 19,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T13",
+      "awayTeamId": "T14",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-20",
+      "matchNumber": 20,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T13",
+      "awayTeamId": "T15",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-21",
+      "matchNumber": 21,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T13",
+      "awayTeamId": "T16",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-22",
+      "matchNumber": 22,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T14",
+      "awayTeamId": "T15",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-23",
+      "matchNumber": 23,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T14",
+      "awayTeamId": "T16",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-24",
+      "matchNumber": 24,
+      "stage": "group",
+      "groupCode": "D",
+      "homeTeamId": "T15",
+      "awayTeamId": "T16",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-25",
+      "matchNumber": 25,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T17",
+      "awayTeamId": "T18",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-26",
+      "matchNumber": 26,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T17",
+      "awayTeamId": "T19",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-27",
+      "matchNumber": 27,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T17",
+      "awayTeamId": "T20",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-28",
+      "matchNumber": 28,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T18",
+      "awayTeamId": "T19",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-29",
+      "matchNumber": 29,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T18",
+      "awayTeamId": "T20",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-30",
+      "matchNumber": 30,
+      "stage": "group",
+      "groupCode": "E",
+      "homeTeamId": "T19",
+      "awayTeamId": "T20",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-31",
+      "matchNumber": 31,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T21",
+      "awayTeamId": "T22",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-32",
+      "matchNumber": 32,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T21",
+      "awayTeamId": "T23",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-33",
+      "matchNumber": 33,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T21",
+      "awayTeamId": "T24",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-34",
+      "matchNumber": 34,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T22",
+      "awayTeamId": "T23",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-35",
+      "matchNumber": 35,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T22",
+      "awayTeamId": "T24",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-36",
+      "matchNumber": 36,
+      "stage": "group",
+      "groupCode": "F",
+      "homeTeamId": "T23",
+      "awayTeamId": "T24",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-37",
+      "matchNumber": 37,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T25",
+      "awayTeamId": "T26",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-38",
+      "matchNumber": 38,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T25",
+      "awayTeamId": "T27",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-39",
+      "matchNumber": 39,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T25",
+      "awayTeamId": "T28",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-40",
+      "matchNumber": 40,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T26",
+      "awayTeamId": "T27",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-41",
+      "matchNumber": 41,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T26",
+      "awayTeamId": "T28",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-42",
+      "matchNumber": 42,
+      "stage": "group",
+      "groupCode": "G",
+      "homeTeamId": "T27",
+      "awayTeamId": "T28",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-43",
+      "matchNumber": 43,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T29",
+      "awayTeamId": "T30",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-44",
+      "matchNumber": 44,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T29",
+      "awayTeamId": "T31",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-45",
+      "matchNumber": 45,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T29",
+      "awayTeamId": "T32",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-46",
+      "matchNumber": 46,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T30",
+      "awayTeamId": "T31",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-47",
+      "matchNumber": 47,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T30",
+      "awayTeamId": "T32",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-48",
+      "matchNumber": 48,
+      "stage": "group",
+      "groupCode": "H",
+      "homeTeamId": "T31",
+      "awayTeamId": "T32",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-49",
+      "matchNumber": 49,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T33",
+      "awayTeamId": "T34",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-50",
+      "matchNumber": 50,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T33",
+      "awayTeamId": "T35",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-51",
+      "matchNumber": 51,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T33",
+      "awayTeamId": "T36",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-52",
+      "matchNumber": 52,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T34",
+      "awayTeamId": "T35",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-53",
+      "matchNumber": 53,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T34",
+      "awayTeamId": "T36",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-54",
+      "matchNumber": 54,
+      "stage": "group",
+      "groupCode": "I",
+      "homeTeamId": "T35",
+      "awayTeamId": "T36",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-55",
+      "matchNumber": 55,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T37",
+      "awayTeamId": "T38",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-56",
+      "matchNumber": 56,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T37",
+      "awayTeamId": "T39",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-57",
+      "matchNumber": 57,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T37",
+      "awayTeamId": "T40",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-58",
+      "matchNumber": 58,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T38",
+      "awayTeamId": "T39",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-59",
+      "matchNumber": 59,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T38",
+      "awayTeamId": "T40",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-60",
+      "matchNumber": 60,
+      "stage": "group",
+      "groupCode": "J",
+      "homeTeamId": "T39",
+      "awayTeamId": "T40",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-61",
+      "matchNumber": 61,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T41",
+      "awayTeamId": "T42",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-62",
+      "matchNumber": 62,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T41",
+      "awayTeamId": "T43",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-63",
+      "matchNumber": 63,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T41",
+      "awayTeamId": "T44",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-64",
+      "matchNumber": 64,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T42",
+      "awayTeamId": "T43",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-65",
+      "matchNumber": 65,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T42",
+      "awayTeamId": "T44",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-66",
+      "matchNumber": 66,
+      "stage": "group",
+      "groupCode": "K",
+      "homeTeamId": "T43",
+      "awayTeamId": "T44",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-67",
+      "matchNumber": 67,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T45",
+      "awayTeamId": "T46",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-68",
+      "matchNumber": 68,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T45",
+      "awayTeamId": "T47",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-69",
+      "matchNumber": 69,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T45",
+      "awayTeamId": "T48",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-70",
+      "matchNumber": 70,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T46",
+      "awayTeamId": "T47",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-71",
+      "matchNumber": 71,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T46",
+      "awayTeamId": "T48",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-group-72",
+      "matchNumber": 72,
+      "stage": "group",
+      "groupCode": "L",
+      "homeTeamId": "T47",
+      "awayTeamId": "T48",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "matchId": "synthetic-match-73",
+      "matchNumber": 73,
+      "stage": "round_of_32",
+      "homeTeamId": "T02",
+      "awayTeamId": "T06",
+      "venueCountryCode": "USA",
+      "status": "final",
+      "actualScore90min": {
+        "home": 0,
+        "away": 0
+      },
+      "actualScoreExtraTime": {
+        "home": 1,
+        "away": 0
+      },
+      "advanceTeamId": "T02"
+    }
+  ],
+  "contextAdjustments": [],
+  "officialFacts": []
+}

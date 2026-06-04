@@ -1,0 +1,46 @@
+---
+name: worldcup-predictor
+description: Use when an agent must audit structured World Cup prediction inputs, calculate 90-minute match probabilities, continue a 2026 tournament simulation from completed results, explain champion or qualification probabilities, or generate cautious China football lottery 3/1/0 reference lists.
+---
+
+# World Cup Predictor
+
+Use this skill to run deterministic World Cup predictions from an offline audited snapshot. The bundled `core/` is a portable snapshot of `prediction-core v0.2.0`; do not recreate probability formulas in prose or with an LLM.
+
+## Workflow
+
+1. Obtain a structured audited snapshot. Do not scrape or invent missing official facts.
+2. Read `references/data-schema.md` and validate source versions, one complete strength version, and completed match fields.
+3. Run the relevant CLI from the skill directory:
+
+```bash
+node scripts/predict-match.mjs --data <snapshot> --home FRA --away BRA
+node scripts/simulate-tournament.mjs --data <snapshot> --simulations 10000 --seed 2026
+node scripts/generate-lottery-slip.mjs --issue <issue> --strategy balanced --budget 288
+```
+
+4. Explain only the returned probabilities and audit metadata. State uncertainty and fallback status.
+5. Keep `90minResult` and `advanceResult` separate in every report.
+
+## Non-Negotiable Rules
+
+- Use `90minResult` only for 3/1/0 lists, group points, and 90-minute predictions.
+- Use `advanceResult` only for knockout progression and champion paths.
+- Preserve completed group scores and completed knockout advancing teams.
+- Apply host advantage only when `venueCountryCode` matches the team's country.
+- Treat `officialFacts`, weather, and news as audit context only.
+- Ignore `llm_extraction` adjustments. Apply only `manual_review` or versioned `deterministic_rule` adjustments.
+- Never claim guaranteed accuracy, returns, purchasing advice, or official endorsement.
+
+## Bundled Data
+
+- `assets/sample-data/worldcup-2026.json`: compact synthetic audited smoke-test snapshot.
+- `assets/sample-data/synthetic-48-team.json`: synthetic 48-team snapshot with 73 completed matches.
+- Samples are not official feeds and contain no licensed marks or crests.
+
+## References
+
+- Read `references/data-schema.md` before preparing or validating snapshots.
+- Read `references/model-methodology.md` when explaining calculations and limitations.
+- Read `references/tournament-rules.md` for completed-result continuation and 2026 paths.
+- Read `references/lottery-rules.md` before producing a 3/1/0 reference list.

@@ -1,0 +1,32 @@
+{
+  "name": "worldcup-predictor-skill",
+  "version": "0.2.0",
+  "description": "A deterministic World Cup prediction Agent Skill with audited offline inputs.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "smoke": "node scripts/predict-match.mjs --home MEX --away KOR > /dev/null && node scripts/simulate-tournament.mjs --simulations 2 --seed smoke > /dev/null && node scripts/generate-lottery-slip.mjs --strategy balanced --budget 288 > /dev/null"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agent-skill",
+    "codex",
+    "claude-code",
+    "world-cup",
+    "football",
+    "monte-carlo",
+    "prediction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqyule/worldcup-predictor-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qqyule/worldcup-predictor-skill/issues"
+  },
+  "homepage": "https://github.com/qqyule/worldcup-predictor-skill#readme",
+  "license": "MIT"
+}

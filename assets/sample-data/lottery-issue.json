@@ -1,0 +1,165 @@
+{
+  "id": "sample-issue-001",
+  "name": "World Cup Predictor 14-match sample",
+  "modelVersion": "model-v0.2-elo-dc",
+  "dataVersion": "official-01ba300f60c582b2",
+  "generatedAt": "2026-06-04T00:00:00.000Z",
+  "unitStake": 2,
+  "disclaimer": "本工具仅提供基于公开数据和数学模型的赛事分析、模拟结果和清单整理，不构成任何购彩、投资或收益建议。请遵守当地法律法规，理性参与中国体育彩票，未成年人禁止参与。",
+  "matches": [
+    {
+      "matchNo": 1,
+      "matchId": "sample-001",
+      "homeTeam": "France",
+      "awayTeam": "Brazil",
+      "homeCode": "FRA",
+      "awayCode": "BRA",
+      "homeWin90Prob": 0.38,
+      "draw90Prob": 0.27,
+      "awayWin90Prob": 0.35
+    },
+    {
+      "matchNo": 2,
+      "matchId": "sample-002",
+      "homeTeam": "Argentina",
+      "awayTeam": "Spain",
+      "homeCode": "ARG",
+      "awayCode": "ESP",
+      "homeWin90Prob": 0.36,
+      "draw90Prob": 0.29,
+      "awayWin90Prob": 0.35
+    },
+    {
+      "matchNo": 3,
+      "matchId": "sample-003",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "homeCode": "MEX",
+      "awayCode": "RSA",
+      "homeWin90Prob": 0.52,
+      "draw90Prob": 0.26,
+      "awayWin90Prob": 0.22
+    },
+    {
+      "matchNo": 4,
+      "matchId": "sample-004",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Qatar",
+      "homeCode": "SUI",
+      "awayCode": "QAT",
+      "homeWin90Prob": 0.55,
+      "draw90Prob": 0.25,
+      "awayWin90Prob": 0.2
+    },
+    {
+      "matchNo": 5,
+      "matchId": "sample-005",
+      "homeTeam": "Japan",
+      "awayTeam": "Australia",
+      "homeCode": "JPN",
+      "awayCode": "AUS",
+      "homeWin90Prob": 0.44,
+      "draw90Prob": 0.3,
+      "awayWin90Prob": 0.26
+    },
+    {
+      "matchNo": 6,
+      "matchId": "sample-006",
+      "homeTeam": "United States",
+      "awayTeam": "Morocco",
+      "homeCode": "USA",
+      "awayCode": "MAR",
+      "homeWin90Prob": 0.33,
+      "draw90Prob": 0.3,
+      "awayWin90Prob": 0.37
+    },
+    {
+      "matchNo": 7,
+      "matchId": "sample-007",
+      "homeTeam": "Canada",
+      "awayTeam": "Bosnia and Herzegovina",
+      "homeCode": "CAN",
+      "awayCode": "BIH",
+      "homeWin90Prob": 0.46,
+      "draw90Prob": 0.29,
+      "awayWin90Prob": 0.25
+    },
+    {
+      "matchNo": 8,
+      "matchId": "sample-008",
+      "homeTeam": "Korea Republic",
+      "awayTeam": "Czechia",
+      "homeCode": "KOR",
+      "awayCode": "CZE",
+      "homeWin90Prob": 0.4,
+      "draw90Prob": 0.31,
+      "awayWin90Prob": 0.29
+    },
+    {
+      "matchNo": 9,
+      "matchId": "sample-009",
+      "homeTeam": "Brazil",
+      "awayTeam": "Haiti",
+      "homeCode": "BRA",
+      "awayCode": "HAI",
+      "homeWin90Prob": 0.68,
+      "draw90Prob": 0.19,
+      "awayWin90Prob": 0.13
+    },
+    {
+      "matchNo": 10,
+      "matchId": "sample-010",
+      "homeTeam": "France",
+      "awayTeam": "Scotland",
+      "homeCode": "FRA",
+      "awayCode": "SCO",
+      "homeWin90Prob": 0.61,
+      "draw90Prob": 0.23,
+      "awayWin90Prob": 0.16
+    },
+    {
+      "matchNo": 11,
+      "matchId": "sample-011",
+      "homeTeam": "Mexico",
+      "awayTeam": "Korea Republic",
+      "homeCode": "MEX",
+      "awayCode": "KOR",
+      "homeWin90Prob": 0.42,
+      "draw90Prob": 0.3,
+      "awayWin90Prob": 0.28
+    },
+    {
+      "matchNo": 12,
+      "matchId": "sample-012",
+      "homeTeam": "Morocco",
+      "awayTeam": "Scotland",
+      "homeCode": "MAR",
+      "awayCode": "SCO",
+      "homeWin90Prob": 0.47,
+      "draw90Prob": 0.28,
+      "awayWin90Prob": 0.25
+    },
+    {
+      "matchNo": 13,
+      "matchId": "sample-013",
+      "homeTeam": "United States",
+      "awayTeam": "Japan",
+      "homeCode": "USA",
+      "awayCode": "JPN",
+      "homeWin90Prob": 0.34,
+      "draw90Prob": 0.31,
+      "awayWin90Prob": 0.35
+    },
+    {
+      "matchNo": 14,
+      "matchId": "sample-014",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Canada",
+      "homeCode": "SUI",
+      "awayCode": "CAN",
+      "homeWin90Prob": 0.43,
+      "draw90Prob": 0.29,
+      "awayWin90Prob": 0.28
+    }
+  ]
+}

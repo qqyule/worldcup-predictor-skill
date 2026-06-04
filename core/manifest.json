@@ -1,0 +1,15 @@
+{
+  "skillVersion": "0.2.0",
+  "sourceVersion": "prediction-core v0.2.0",
+  "modelVersion": "model-v0.2-elo-dc",
+  "sourceHash": "5d5d5320f3b10371848fa3c4011db4f08f93d53db9300bd2eaee242299e3563c",
+  "files": {
+    "betting.mjs": "015115bd3ca8ca86d0979ba3514b9eee852888423ed0c1848f458d7e96b1aa20",
+    "index.mjs": "9dab4113edf79239a57e001d23e7b8213b27e479e0962b72a94ab35e9f45c7d9",
+    "match.mjs": "1d76e8306c560118544d33c377f255449e38b42e67dc1704becbc1418defc041",
+    "tournament.mjs": "f86cd1a4c181b7c5f746ca28bd9e197a515181e19f678a27de3baff8e44bf1d5",
+    "types.mjs": "c26664782d5055098272c77369fef7ca595fbdbe2b7b7a66a505b059a63ba284",
+    "utils.mjs": "a440878b69f812b89ae0fd1006e82b31eacc78525350097816ff64983bfa8650",
+    "version.mjs": "1ce17015dae405d9250945ddb459733e2aa37f82645652d13570350f417e39d4"
+  }
+}
