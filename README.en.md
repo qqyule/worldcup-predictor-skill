@@ -6,7 +6,7 @@ World Cup Predictor is an Agent Skill for Codex, Claude Code, and compatible env
 
 **In one sentence**: give an agent audited match data, and it can explain which side is more likely to win, draw, or lose in 90 minutes, then simulate who has the best path to the title.
 **Best for**: checking a World Cup match before kickoff, building a 2026 World Cup simulator, explaining champion probabilities, or adding win/draw/loss analysis to Codex / Claude Code.
-**Not for**: live scores, news, odds, official-data scraping, betting advice, return promises, or official endorsement.
+**Not for**: bundled official data packages, automatic live-score/news/odds/official-data scraping, betting advice, return promises, or official endorsement.
 **Chinese display name**: 世界杯预测机. The internal skill name remains `worldcup-predictor`.
 
 The 2026 World Cup uses the expanded 48-team, 12-group, 104-match format. This repository only works with audited offline data and does not depend on Next.js, databases, live scraping, or LLM-generated probabilities. LLMs may explain outputs, but they must not replace deterministic rules or calculations.
@@ -102,6 +102,7 @@ Important scopes:
 Detailed references:
 
 - [`references/data-schema.md`](references/data-schema.md)
+- [`references/official-data-sources.md`](references/official-data-sources.md)
 - [`references/model-methodology.md`](references/model-methodology.md)
 - [`references/tournament-rules.md`](references/tournament-rules.md)
 - [`references/lottery-rules.md`](references/lottery-rules.md)
@@ -115,6 +116,7 @@ Detailed references:
 ├── core/                    # Deterministic prediction-core ESM snapshot
 ├── scripts/                 # Audit, prediction, simulation, and list CLIs
 ├── references/              # Data, model, tournament, and compliance rules
+├── assets/official-sources.json # Lightweight source index, not official data
 ├── assets/sample-data/      # Synthetic smoke-test data, not official feeds
 ├── tests/                   # Standalone tests
 ├── README.md                # Chinese documentation
@@ -133,7 +135,7 @@ npm run smoke
 - `npm run smoke` executes all three CLIs with bundled samples.
 - `core/` is a deterministic snapshot generated from the upstream `packages/prediction-core`; do not edit it manually.
 
-Bundled samples exist only for demonstrations and tests. They are not official schedules, real team-strength data, or actual prediction conclusions.
+Bundled samples exist only for demonstrations and tests. They are not official schedules, real team-strength data, or actual prediction conclusions. `assets/official-sources.json` contains only source metadata; it does not include official scrape results, CSV files, images, PDFs, or live feeds.
 
 ## Open Source And Contributions
 

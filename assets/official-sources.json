@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "sourceRegistryVersion": "2026-06-04",
+  "description": "Lightweight official source index only. This file does not contain official data, scraped responses, media, scores, rankings, squads, or prediction snapshots.",
+  "sources": [
+    {
+      "key": "fifa-calendar",
+      "label": "FIFA 2026 match calendar",
+      "url": "https://api.fifa.com/api/v3/calendar/matches?language=en&count=500&idSeason=285023",
+      "refreshIntervalMinutes": 240,
+      "structured": true,
+      "predictionInput": true,
+      "extractionStatus": "structured",
+      "purpose": "Primary official structured source for fixtures, match status, scores, venues, and match-centre URLs after quality gates pass."
+    },
+    {
+      "key": "fifa-ranking",
+      "label": "FIFA men's world ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men",
+      "refreshIntervalMinutes": 1440,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit and explanation context unless a separate reviewed strength snapshot promotes derived values."
+    },
+    {
+      "key": "fifa-squads",
+      "label": "FIFA 2026 official squads",
+      "url": "https://www.fifa.com/en/articles/fifa-world-cup-2026-squads-confirmed",
+      "refreshIntervalMinutes": 720,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit and explanation context for squads after manual review."
+    },
+    {
+      "key": "fifa-match-centre",
+      "label": "FIFA match centre",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures",
+      "refreshIntervalMinutes": 120,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit context for fixture pages, match-centre links, and reviewable match facts."
+    },
+    {
+      "key": "government-weather-us",
+      "label": "United States National Weather Service API",
+      "url": "https://www.weather.gov/documentation/services-web-api",
+      "refreshIntervalMinutes": 60,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit context for United States venue weather after review."
+    },
+    {
+      "key": "government-weather-ca",
+      "label": "Canadian weather API",
+      "url": "https://api.weather.gc.ca/",
+      "refreshIntervalMinutes": 60,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit context for Canada venue weather after review."
+    },
+    {
+      "key": "government-weather-mx",
+      "label": "Mexico National Meteorological Service API",
+      "url": "https://smn.conagua.gob.mx/es/web-service-api",
+      "refreshIntervalMinutes": 60,
+      "structured": false,
+      "predictionInput": false,
+      "extractionStatus": "audit-only",
+      "purpose": "Audit context for Mexico venue weather after review."
+    }
+  ]
+}

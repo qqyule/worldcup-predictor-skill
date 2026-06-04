@@ -29,6 +29,16 @@ The CLI accepts one offline JSON snapshot:
 - Static `isHost` values are ignored by the Skill. Host status comes from `venueCountryCode`.
 - `officialFacts` are retained for explanation and audit only.
 
+## Official Sources And Versioning
+
+Official source metadata lives in `assets/official-sources.json`; usage rules live in `references/official-data-sources.md`. These files are source indexes only, not bundled official data.
+
+- `metadata.sourceVersions` must include the content hash for each prediction-affecting structured source, such as `fifa-calendar`, after quality gates pass.
+- `metadata.sourceVersions` must not include audit-only pages, weather, news, squads, rankings, or other context unless the value has been promoted into a structured prediction input.
+- `metadata.dataVersion` must be derived only from prediction-affecting `sourceVersions` and `strengthSnapshotVersion`.
+- `officialFacts` and audit-only source changes may support explanation, but must not change `dataVersion` or probabilities by themselves.
+- If a new official source fetch fails validation, keep the previous audited snapshot rather than mixing partial source versions.
+
 ## Match States
 
 `matchStates[]` may include:

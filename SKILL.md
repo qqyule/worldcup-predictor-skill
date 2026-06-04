@@ -11,7 +11,8 @@ Use this skill to run deterministic World Cup predictions from an offline audite
 
 1. Obtain a structured audited snapshot. Do not scrape or invent missing official facts.
 2. Read `references/data-schema.md` and validate source versions, one complete strength version, and completed match fields.
-3. Run the relevant CLI from the skill directory:
+3. If official provenance is relevant, read `references/official-data-sources.md`; use its source index only to audit snapshot lineage, not as live prediction input.
+4. Run the relevant CLI from the skill directory:
 
 ```bash
 node scripts/predict-match.mjs --data <snapshot> --home FRA --away BRA
@@ -19,8 +20,8 @@ node scripts/simulate-tournament.mjs --data <snapshot> --simulations 10000 --see
 node scripts/generate-lottery-slip.mjs --issue <issue> --strategy balanced --budget 288
 ```
 
-4. Explain only the returned probabilities and audit metadata. State uncertainty and fallback status.
-5. Keep `90minResult` and `advanceResult` separate in every report.
+5. Explain only the returned probabilities and audit metadata. State uncertainty and fallback status.
+6. Keep `90minResult` and `advanceResult` separate in every report.
 
 ## Non-Negotiable Rules
 
@@ -36,11 +37,13 @@ node scripts/generate-lottery-slip.mjs --issue <issue> --strategy balanced --bud
 
 - `assets/sample-data/worldcup-2026.json`: compact synthetic audited smoke-test snapshot.
 - `assets/sample-data/synthetic-48-team.json`: synthetic 48-team snapshot with 73 completed matches.
-- Samples are not official feeds and contain no licensed marks or crests.
+- `assets/official-sources.json`: lightweight official source registry metadata only.
+- Samples are not official feeds and contain no licensed marks or crests. The source registry does not include official data, raw responses, media, or live feeds.
 
 ## References
 
 - Read `references/data-schema.md` before preparing or validating snapshots.
+- Read `references/official-data-sources.md` before assessing official source provenance or deciding whether a source may affect predictions.
 - Read `references/model-methodology.md` when explaining calculations and limitations.
 - Read `references/tournament-rules.md` for completed-result continuation and 2026 paths.
 - Read `references/lottery-rules.md` before producing a 3/1/0 reference list.
