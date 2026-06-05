@@ -2,6 +2,14 @@
 
 [English](README.en.md)
 
+## 在线预测网站
+
+基于本 Skill 开发的世界杯预测网站已上线：[https://world-cup.justidea.cn/](https://world-cup.justidea.cn/)。
+
+网站内容会随比赛进程实时更新，可直接查看冠军概率、单场预测、小组出线、淘汰赛路径和足彩清单等结果。
+
+![世界杯预测台线上网站截图](assets/screenshots/world-cup-predictor-console.png)
+
 世界杯预测机是一个面向 Codex、Claude Code 等 Agent 环境的世界杯预测 Skill。它使用离线审计快照和内置确定性核心，完成 2026 世界杯预测、世界杯胜平负预测、冠军概率模拟，以及中国足球彩票 3/1/0 娱乐参考清单整理。
 
 **一句话**：把审计过的比赛数据交给 Agent，它会告诉你一场球 90 分钟更可能胜、平还是负，也能推演整届世界杯谁更有机会夺冠。
